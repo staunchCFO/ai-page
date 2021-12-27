@@ -53,7 +53,6 @@ export const WhatGPT3Container = styled.div`
 
         .gpt3__whatgpt3-container {
             display: flex;
-            flex-wrap: wrap;
             flex-direction: row;
             margin-top: 2rem;
 
@@ -74,9 +73,14 @@ export const WhatGPT3Container = styled.div`
 
     @media screen and (max-width: 850px) {
         .gpt3__whatgpt3-heading {
+            flex-wrap: wrap;
             flex-direction: column;
             align-items: flex-start;
             margin-bottom: 0rem;
+        }
+
+        .gpt3__whatgpt3-container {
+            flex-wrap: wrap;
         }
 
         .gpt3__whatgpt3-heading p {
